@@ -1,0 +1,64 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        display: flex;
+        background-color: aquamarine;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    img {
+        width: 450px;
+        height: 100px;
+        display: flex;
+    }
+    
+    #menu {
+        width: 40%;
+        height: 100px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'arial';
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    
+    li a:hover {
+        color: #fff;
+    }
+    
+    article {
+        height: 700px;
+        display: flex;
+        background-image: url(img/oficina.jpg);
+        justify-content: center;
+    }
+    
+    .logan {
+        background-color: #fff;
+        height: 90%;
+        width: 80%;
+        display: flex;
+    }
+    
+    article img {
+        width: 60%;
+        height: 70%;
+        padding: 20px;
+    }
+    
+    footer img {
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
